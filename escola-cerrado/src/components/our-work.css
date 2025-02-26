@@ -1,0 +1,43 @@
+.nosso-trabalho-container {
+    background-color: #f4c20b; /* Amarelo */
+    text-align: center;
+    padding: 0px 80px;
+    flex-direction: column;
+    gap: 70px;
+  }
+  
+  .nosso-trabalho-title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .nosso-trabalho-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .trabalho-item {
+    width: 350px;
+    text-align: center;
+  }
+  
+  .trabalho-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .trabalho-item h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .trabalho-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
