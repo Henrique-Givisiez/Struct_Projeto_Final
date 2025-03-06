@@ -10,8 +10,8 @@ const membros: MembroEquipe[] = [
   { nome: "Daniel José de Assumpção", cargo: "Educador Social", imagem: "/images/daniel_jose.webp" },
   { nome: "Leonardo Tomé", cargo: "Coordenador de Projetos Educacionais", imagem: "/images/leonardo_tomé.webp" },
   { nome: "Alex Batista", cargo: "Facilitador Cultural", imagem: "/images/alex_batista.webp" },
-  { nome: "Ciclana Carvalho", cargo: "Gestor de Comunidade e Parcerias", imagem: "/images/mulher.webp" },
-  { nome: "Fulano da Silva", cargo: "Psicopedagoga", imagem: "/images/homem.webp" },
+  { nome: "Ciclana Carvalho",  cargo: "Psicopedagoga", imagem: "/images/mulher.webp" },
+  { nome: "Fulano da Silva",cargo: "Gestor de Comunidade e Parcerias", imagem: "/images/homem.webp" },
 ];
 
 const Team = () => {

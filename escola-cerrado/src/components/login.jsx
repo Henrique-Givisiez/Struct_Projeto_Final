@@ -36,7 +36,7 @@ const Login = () => {
 
       alert("Login realizado com sucesso!");
       // Redirecionar para outra página se necessário
-      window.location.href = "/dashboard"; // Ajuste conforme necessário
+      window.location.href = "/CRUD/funcionarios"; // Ajuste conforme necessário
     } catch (error) {
       setErrorMessage(error.message);
     }

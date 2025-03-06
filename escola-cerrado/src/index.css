@@ -11,10 +11,19 @@ html, body {
 }
 
 section{
-  min-height: 100vh; /* Garante que cada seção ocupe a tela inteira */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px;
   color: white;
+}
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+  width: 100%;
 }
